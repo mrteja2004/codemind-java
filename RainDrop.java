@@ -1,15 +1,16 @@
 import java.util.*;
 public class Test{
-    public static void main(String[] ants){
+    public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        if(n%3==0)
+        int a,b,c;
+        a=sc.nextInt();
+        if(a%3==0)
         System.out.print("Pling");
-         if(n%5==0)
+        if(a%5==0)
         System.out.print("Plang");
-         if(n%7==0)
+        if(a%7==0)
         System.out.print("Plong");
-         if(n%3!=0 && n%5!=0 && n%7!=0)
-        System.out.print(Integer.toString(n));
+        if(a%3!=0 && a%5!=0 && a%7!=0)
+        System.out.print(Integer.toString(a));
     }
 }
